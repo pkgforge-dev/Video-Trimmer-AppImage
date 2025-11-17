@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package and its dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm 
+pacman -Syu --noconfirm \
             video-trimmer \
             pipewire-jack \
             gst-libav \
