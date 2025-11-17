@@ -16,7 +16,10 @@ export DEPLOY_PIPEWIRE=1
 export STARTUPWMCLASS=video-trimmer # For Wayland, this is 'org.gnome.gitlab.YaLTeR.VideoTrimmer', so this needs to be changed in desktop file manually by the user in that case until some potential automatic fix exists for this
 
 # Deploy dependencies
-quick-sharun /usr/bin/video-trimmer
+quick-sharun /usr/bin/video-trimmer \
+             /usr/bin/ffmpeg \
+             /usr/bin/ffplay \
+             /usr/bin/ffprobe
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
