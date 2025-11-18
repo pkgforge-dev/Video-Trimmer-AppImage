@@ -16,3 +16,8 @@ pacman -Syu --noconfirm \
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
+
+echo "Installing regular gtk4..."
+echo "---------------------------------------------------------------"
+pacman -Rns --noconfirm gtk4-mini
+pacman -Syu --noconfirm gtk4
