@@ -17,7 +17,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Installing regular gtk4..."
+echo "Installing regular gtk4 instead of the debloated one..."
 echo "---------------------------------------------------------------"
-pacman -Rns --noconfirm gtk4-mini
+pacman -Rns --noconfirm gtk4
 pacman -Syu --noconfirm gtk4
