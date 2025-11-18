@@ -13,11 +13,12 @@ pacman -Syu --noconfirm \
             gst-plugins-bad \
             gst-plugins-ugly
 
+if [ "$ARCH" = 'x86_64' ]; then
+	echo "Installing 'libva-intel-driver' for older Intel's video HW acceleration"
+	echo "---------------------------------------------------------------"
+	pacman -Syu --noconfirm libva-intel-driver
+fi
+
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
-
-echo "Installing regular gtk4 instead of the debloated one..."
-echo "---------------------------------------------------------------"
-pacman -Rns --noconfirm gtk4
-pacman -Syu --noconfirm gtk4
+get-debloated-pkgs libxml2-mini mesa-nano gdk-pixbuf2-mini librsvg-mini opus-mini intel-media-driver-mini
