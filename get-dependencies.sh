@@ -21,4 +21,4 @@ fi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano intel-media-driver-mini
+get-debloated-pkgs icu-mini libxml2-mini mesa-nano gdk-pixbuf2-mini librsvg-mini opus-mini ffmpeg-mini intel-media-driver-mini
