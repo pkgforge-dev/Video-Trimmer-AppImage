@@ -22,4 +22,4 @@ fi
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 # gtk4-mini causes video preview in Video Trimmer to not work
-get-debloated-pkgs --add-common --prefer-nano ! gtk4
+get-debloated-pkgs --add-common --prefer-nano intel-media-driver ! gtk4
