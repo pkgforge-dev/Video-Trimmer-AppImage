@@ -14,7 +14,6 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_GSTREAMER=1
 export DEPLOY_PIPEWIRE=1
-export STARTUPWMCLASS=video-trimmer
 export GTK_CLASS_FIX=1
 
 # Deploy dependencies
