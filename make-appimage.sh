@@ -10,7 +10,6 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.gitlab.YaLTeR.VideoTrimmer.svg
 export DESKTOP=/usr/share/applications/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop
-export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_GSTREAMER=1
 export DEPLOY_PIPEWIRE=1
