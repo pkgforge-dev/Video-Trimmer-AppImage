@@ -14,6 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_GSTREAMER=1
 export DEPLOY_PIPEWIRE=1
+export STARTUPWMCLASS=org.gnome.gitlab.YaLTeR.VideoTrimmer # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
 
 # Deploy dependencies
