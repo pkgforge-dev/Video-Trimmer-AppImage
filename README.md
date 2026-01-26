@@ -1,5 +1,7 @@
 # Video Trimmer AppImage 🐧
 
+<div align="center">
+
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Video-Trimmer-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/Video-Trimmer-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Video-Trimmer-AppImage)](https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://gitlab.gnome.org/YaLTeR/video-trimmer/-/raw/main/data/icons/hicolor/scalable/apps/org.gnome.gitlab.YaLTeR.VideoTrimmer.svg?ref_type=heads" width="128" />
 </p>
 
-* [Upstream URL](https://gitlab.gnome.org/YaLTeR/video-trimmer)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/latest) | [Click here](https://gitlab.gnome.org/YaLTeR/video-trimmer) |
+
+</div>
 
 ---
 
